@@ -70,7 +70,7 @@
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
                 <div
                     class="d-flex justify-content-end flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-
+                    
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group mr-2 justify-content-end">
                             <button class="btn btn-sm btn-outline-secondary">Exportar</button>
@@ -79,7 +79,7 @@
                 </div>
 
 
-                <h2>Nuevo zapato</h2>
+                <h2>Editar zapato</h2>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 order-md-1">
@@ -87,8 +87,8 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="firstName">Nombre</label>
-                                        <input type="text" class="form-control" id="modelName" placeholder="Nombre"
-                                            value="" required>
+                                        <input type="text" class="form-control" id="modelName" placeholder="Nombre" value=""
+                                            required>
                                         <div class="invalid-feedback">
                                             Nombre es requerido.
                                         </div>
@@ -106,8 +106,7 @@
 
                                 <div class="mb-3">
                                     <label for="descripcionIngles">Descripción - Inglés</label>
-                                    <textarea type="text" class="form-control" id="descripcionIngles"
-                                        placeholder="..."></textarea>
+                                    <textarea type="text" class="form-control" id="descripcionIngles" placeholder="..."></textarea>
                                     <div class="invalid-feedback">
                                         Por favor ingresar descripción.
                                     </div>
@@ -115,32 +114,12 @@
 
                                 <div class="mb-3">
                                     <label for="descripcionPortugues">Descripción - Portugués</label>
-                                    <textarea type="text" class="form-control" id="descripcionPortugues"
-                                        placeholder="..."></textarea>
+                                    <textarea type="text" class="form-control" id="descripcionPortugues" placeholder="..."></textarea>
                                     <div class="invalid-feedback">
                                         Por favor ingresar descripción.
                                     </div>
                                 </div>
 
-                                <hr class="mb-4">
-                                <h4>Precio</h4>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="capellada">Pesos</label>
-                                        <input type="text" class="form-control" id="capellada" placeholder="Capellada"
-                                            value="" required>
-                                        <div class="invalid-feedback">
-                                            El precio es requerido.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="forro">Dólares</label>
-                                        <input type="text" class="form-control" id="forro" placeholder="forro" value="">
-                                    </div>
-                                </div>
-
-                                <hr class="mb-4">
-                                <h4>Datos</h4>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="talla">Talla</label>
@@ -165,8 +144,8 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="capellada">Material Capellada</label>
-                                        <input type="text" class="form-control" id="capellada" placeholder="Capellada"
-                                            value="" required>
+                                        <input type="text" class="form-control" id="capellada" placeholder="Capellada" value=""
+                                            required>
                                         <div class="invalid-feedback">
                                             El material de la capellada es requerido.
                                         </div>
@@ -203,16 +182,16 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="alturaTaco">Altura del taco</label>
-                                        <input type="text" class="form-control" id="alturaTaco"
-                                            placeholder="Altura taco" value="" required>
+                                        <input type="text" class="form-control" id="alturaTaco" placeholder="Altura taco" value=""
+                                            required>
                                         <div class="invalid-feedback">
                                             La altura del taco es requerida.
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-3">
                                         <label for="alturaPlataforma">Altura de la plataforma</label>
-                                        <input type="text" class="form-control" id="alturaPlataforma"
-                                            placeholder="Altura plataforma" value="" required>
+                                        <input type="text" class="form-control" id="alturaPlataforma" placeholder="Altura plataforma" value=""
+                                            required>
                                         <div class="invalid-feedback">
                                             La altura de la plataforma es requerida.
                                         </div>
@@ -228,68 +207,36 @@
                                             La suela es requerida.
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="country">Tipo</label>
-                                        <select class="custom-select d-block w-100" id="estado" required>
-                                            <option value="">Zapato</option>
-                                            <option value="">Otro</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            Por favor selecciones un estado.
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="detalle">Detalle</label>
-                                    <textarea type="text" class="form-control" id="detalle"
-                                        placeholder="..."> </textarea>
+                                    <textarea type="text" class="form-control" id="detalle" placeholder="..."> </textarea>
                                     <div class="invalid-feedback">
                                         Por favor ingresar descripción.
                                     </div>
                                 </div>
-
-
-
-                                <hr class="mb-4">
-                                <h4>Opciones</h4>
-
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="showStock">
-                                        <label class="custom-control-label" for="showStock">Visible solo mientras haya
-                                            stock</label>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="hidden">
-                                        <label class="custom-control-label" for="hidden">Oculto</label>
-                                    </div>
-                                </div>
-
 
                                 <hr class="mb-4">
                                 <h4>Imagenes</h4>
 
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 box-shadow">
-                                                <img class="card-img-top" src="../img/zapato01.jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <p class="card-text"><a href="#">Modelo-5</a></p>
-                                                    <div class="d-flex justify-content-between align-items-center">
-                                                        <div class="btn-group">
-                                                            <button type="button"
-                                                                class="btn btn-sm btn-outline-secondary">View</button>
-                                                            <button type="button"
-                                                                class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                        </div>
-                                                        <small class="text-muted">9 mins</small>
-                                                    </div>
-                                                </div>
+                                      <div class="col-md-4">
+                                        <div class="card mb-4 box-shadow">
+                                          <img class="card-img-top" src="../img/zapato01.jpg" alt="Card image cap">
+                                          <div class="card-body">
+                                            <p class="card-text"><a href="#">Modelo-5</a></p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                              <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                              </div>
+                                              <small class="text-muted">9 mins</small>
                                             </div>
+                                          </div>
                                         </div>
+                                      </div>
                                     </div>
                                 </div>
 
