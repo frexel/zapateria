@@ -1,0 +1,68 @@
+  /* Position and style the close button (top right corner) */
+ .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+
+  /* mios */
+.noPad{
+    padding: 0;
+}
+
+.alto{
+    height: 100vh;
+}
+
+.fondoNegro{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0));
+    transition: 0.2s linear all;
+}
+
+.fondoCrema{
+    background: rgb(255, 210, 253)
+}
+
+.contenedorAside{
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: 0.4s linear all;
+    opacity: 0;
+}
+
+.contenedorAside2{
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    transition: 0.4s linear all;
+    opacity: 0;
+}
+
+.exit{
+    width: 100%;
+    height: 100%;
+}
